@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-20 16:09-0300\n"
+"POT-Creation-Date: 2019-10-31 14:42-0300\n"
 "PO-Revision-Date: 2019-07-20 16:00-UTC\n"
 "Last-Translator: Gilson Paulino <gilsonbp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,136 +17,136 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: apps/gpauth/admin.py:42 apps/gpauth/models.py:22
+#: gpauth/admin.py:37 gpauth/models.py:17
 msgid "Permissions"
 msgstr "Permissões"
 
-#: apps/gpauth/admin.py:44
+#: gpauth/admin.py:39
 msgid "Important dates"
 msgstr "Datas Importantes"
 
-#: apps/gpauth/forms.py:14 apps/gpauth/forms.py:40
+#: gpauth/forms.py:9 gpauth/forms.py:35
 msgid "Password"
 msgstr "Senha"
 
-#: apps/gpauth/forms.py:16
+#: gpauth/forms.py:11
 msgid "Confirm password"
 msgstr "Confirme sua senha"
 
-#: apps/gpauth/forms.py:27
+#: gpauth/forms.py:22
 msgid "The passwords you entered are not the same."
 msgstr "As senhas que você digitou não são iguais."
 
-#: apps/gpauth/forms.py:42
+#: gpauth/forms.py:37
 msgid ""
-"Raw passwords are not stored, so there is no way to see this "
-"user's password, but you can change the password using "
-"<a href=\"../password/\">this form</a>."
+"Raw passwords are not stored, so there is no way to see this user's "
+"password, but you can change the password using <a href=\"../password/"
+"\">this form</a>."
 msgstr ""
-"As senhas brutas não são armazenadas, então não há como ver a senha "
-"desse usuário, mas você pode alterar a senha usando "
-"<a href=\"../password/\">este formulário</a>."
+"As senhas brutas não são armazenadas, então não há como ver a senha desse "
+"usuário, mas você pode alterar a senha usando <a href=\"../password/\">este "
+"formulário</a>."
 
-#: apps/gpauth/gppermissions.py:7
+#: gpauth/gppermissions.py:8
 msgid "You do not have permission to access this system resource."
 msgstr "Você não tem permissão para acessar este recurso do sistema."
 
-#: apps/gpauth/models.py:21
+#: gpauth/models.py:16
 msgid "Permission"
 msgstr "Permissão"
 
-#: apps/gpauth/models.py:28
+#: gpauth/models.py:23
 msgid "Group"
 msgstr "Grupo"
 
-#: apps/gpauth/models.py:29 apps/gpauth/models.py:134
+#: gpauth/models.py:24 gpauth/models.py:129
 msgid "Groups"
 msgstr "Grupos"
 
-#: apps/gpauth/models.py:35
+#: gpauth/models.py:30
 msgid "Users must have an email."
 msgstr "Os usuários devem ter um email."
 
-#: apps/gpauth/models.py:57
+#: gpauth/models.py:52
 msgid "Registration Successful!"
 msgstr "Cadastro realizado com sucesso!"
 
-#: apps/gpauth/models.py:64
+#: gpauth/models.py:59
 msgid "Email"
 msgstr "E-mail"
 
-#: apps/gpauth/models.py:65
+#: gpauth/models.py:60
 msgid "The email will be used to access the system and send information"
 msgstr "O email será usado para acessar o sistema e enviar informações"
 
-#: apps/gpauth/models.py:68
+#: gpauth/models.py:63
 msgid "This email already exists."
 msgstr "Esse email já existe."
 
-#: apps/gpauth/models.py:70 apps/gpauth/models.py:129
+#: gpauth/models.py:65 gpauth/models.py:124
 msgid "Name"
 msgstr "Nome"
 
-#: apps/gpauth/models.py:71
+#: gpauth/models.py:66
 msgid "Enter the user's full name."
 msgstr "Digite o nome completo do usuário."
 
-#: apps/gpauth/models.py:72
+#: gpauth/models.py:67
 msgid "Photo"
 msgstr "Foto"
 
-#: apps/gpauth/models.py:74
+#: gpauth/models.py:69
 msgid "Active?"
 msgstr "Ativo?"
 
-#: apps/gpauth/models.py:75
+#: gpauth/models.py:70
 msgid "Only active users can access the system."
 msgstr "Somente usuários ativos podem acessar o sistema."
 
-#: apps/gpauth/models.py:76
+#: gpauth/models.py:71
 msgid "Is part of the team?"
 msgstr "Faz parte da equipe?"
 
-#: apps/gpauth/models.py:77
+#: gpauth/models.py:72
 msgid "Determines whether the user has access to the system panel."
 msgstr "Determina se o usuário tem acesso ao painel administrador do sistema."
 
-#: apps/gpauth/models.py:79
+#: gpauth/models.py:74
 msgid "Registration date"
 msgstr "Data de cadastro"
 
-#: apps/gpauth/models.py:82
+#: gpauth/models.py:77
 msgid "E-mail Confirmation"
 msgstr "Confirmação de email"
 
-#: apps/gpauth/models.py:86
+#: gpauth/models.py:81
 msgid "groups"
 msgstr "Grupos"
 
-#: apps/gpauth/models.py:89
+#: gpauth/models.py:84
 msgid ""
 "The groups this user belongs to. A user will get all permissions granted to "
 "each of their groups."
 msgstr ""
-"Os grupos a que este usuário pertence. Um usuário receberá todas as permissões concedidas a "
-"cada um dos seus grupos"
+"Os grupos a que este usuário pertence. Um usuário receberá todas as "
+"permissões concedidas a cada um dos seus grupos"
 
-#: apps/gpauth/models.py:97
+#: gpauth/models.py:92
 msgid "user permissions"
 msgstr "Permissões de usuário"
 
-#: apps/gpauth/models.py:99
+#: gpauth/models.py:94
 msgid "Specific permissions for this user."
 msgstr "Permissões específicas para este usuário."
 
-#: apps/gpauth/models.py:114
+#: gpauth/models.py:109
 msgid "User"
 msgstr "Usuário"
 
-#: apps/gpauth/models.py:115
+#: gpauth/models.py:110
 msgid "Users"
 msgstr "Usuários"
 
-#: apps/gpauth/models.py:124
+#: gpauth/models.py:119
 msgid "Full name"
 msgstr "Nome completo"
