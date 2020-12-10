@@ -56,10 +56,30 @@ class UserCustomAdmin(UserAdmin):
                 )
             },
         ),
-        (_("Important dates"), {"fields": ("date_joined", "last_login",)}),
+        (
+            _("Important dates"),
+            {
+                "fields": (
+                    "date_joined",
+                    "last_login",
+                )
+            },
+        ),
     )
 
-    add_fieldsets = ((None, {"fields": ("email", "name", "password1", "password2",)}),)
+    add_fieldsets = (
+        (
+            None,
+            {
+                "fields": (
+                    "email",
+                    "name",
+                    "password1",
+                    "password2",
+                )
+            },
+        ),
+    )
     search_fields = ("email",)
     ordering = ("name",)
     filter_horizontal = ["user_permissions"]
